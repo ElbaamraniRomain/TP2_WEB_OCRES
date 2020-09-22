@@ -29,6 +29,25 @@ body > header {
     background: white;
     box-shadow: 1px 0px 8px rgb(200, 200, 200);
 }
+article
+{
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+@media screen and (max-width: 800px) {
+    .article {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .article {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
 
 header .logo-search form  {
     width: 50%;
