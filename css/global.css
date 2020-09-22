@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'My Lucida';
     src: url('../font/LucidaGrande.ttf');
-    font-style: normal; 
+    font-style: normal;
     font-weight: bold;
 }
 
@@ -20,6 +20,8 @@ a {
 
 .wrapper {
     padding: 25px 0;
+    display: flex;
+    margin: 5%;
 }
 
 body > header {
@@ -40,6 +42,19 @@ header .user a {
     font-size: 13px;
     color: #89949b;
     padding-top: 5px;
+}
+main
+{
+    flex: 70%;
+    padding: 20px;
+    justify-content: flex-start;
+}
+aside
+{
+    flex: 30%;
+    padding: 20px;
+    justify-content: flex-end;
+    margin: 5%;
 }
 
 main h2 {
