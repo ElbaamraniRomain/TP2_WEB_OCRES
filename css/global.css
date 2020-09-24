@@ -7,7 +7,9 @@
 
 * { 
     font-family: 'My Lucida', Console;
+    justify-content: center;
 }
+
 
 body {
     background: linear-gradient(to bottom, #efefef, white) no-repeat;
@@ -29,25 +31,6 @@ body > header {
     background: white;
     box-shadow: 1px 0px 8px rgb(200, 200, 200);
 }
-article
-{
-    flex: 25%;
-    max-width: 25%;
-    padding: 0 4px;
-}
-@media screen and (max-width: 800px) {
-    .article {
-      flex: 50%;
-      max-width: 50%;
-    }
-  }
-  
-  @media screen and (max-width: 600px) {
-    .article {
-      flex: 100%;
-      max-width: 100%;
-    }
-  }
 
 header .logo-search form  {
     width: 50%;
@@ -58,20 +41,20 @@ header .user {
 }
 
 header .user a {
-    font-size: 13px;
+    font-size: 100%;
     color: #89949b;
     padding-top: 5px;
 }
 main
 {
     flex: 70%;
-    padding: 20px;
+    padding: 2em;
     justify-content: flex-start;
 }
 aside
 {
     flex: 30%;
-    padding: 20px;
+    padding: 2em;
     justify-content: flex-end;
     margin: 5%;
 }
@@ -204,6 +187,8 @@ input.submit {
 
 
 #albums article {
+    flex: 25%;
+    max-width: 25%;
     font-size: 13px;
     color: #89949b;
     margin: 10px 0;
