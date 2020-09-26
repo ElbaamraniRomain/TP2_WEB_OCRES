@@ -7,9 +7,7 @@
 
 * { 
     font-family: 'My Lucida', Console;
-    justify-content: center;
 }
-
 
 body {
     background: linear-gradient(to bottom, #efefef, white) no-repeat;
@@ -22,9 +20,9 @@ a {
 
 .wrapper {
     padding: 25px 0;
-    display: flex;
-    margin: 5%;
+    display: flex;    
 }
+
 
 body > header {
     margin-bottom: 20px;
@@ -41,22 +39,9 @@ header .user {
 }
 
 header .user a {
-    font-size: 100%;
+    font-size: 13px;
     color: #89949b;
     padding-top: 5px;
-}
-main
-{
-    flex: 70%;
-    padding: 2em;
-    justify-content: flex-start;
-}
-aside
-{
-    flex: 30%;
-    padding: 2em;
-    justify-content: flex-end;
-    margin: 5%;
 }
 
 main h2 {
@@ -187,8 +172,6 @@ input.submit {
 
 
 #albums article {
-    flex: 25%;
-    max-width: 25%;
     font-size: 13px;
     color: #89949b;
     margin: 10px 0;
@@ -234,7 +217,6 @@ nav a.top { background: url("../img/icon/top.png") no-repeat 0px; }
 nav a.new { background: url("../img/icon/new.png") no-repeat 0px; }
 nav a.collection { background: url("../img/icon/collection.png") no-repeat 0px; }
 nav a.history { background: url("../img/icon/history.png") no-repeat 0px; }
-
 
 
 
