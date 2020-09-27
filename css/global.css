@@ -211,6 +211,24 @@ nav.browse a, nav.music a {
     padding-top: 2px;
 }
 
+@media screen and (min-width: 1400px) {
+    div.name {
+      font-size: 80px;
+    }
+  }
+  @media screen and (min-width: 451px) {
+    div.name {
+      font-size: 6px;
+    }
+  }
+  
+  @media screen and (max-width: 450px) {
+    div.name {
+      font-size: 30px;
+    }
+  }
+
+
 nav a.heavy { background: url("../img/icon/heavy.png") no-repeat 0px; }
 nav a.recent { background: url("../img/icon/recent.png") no-repeat 0px; }
 nav a.top { background: url("../img/icon/top.png") no-repeat 0px; }

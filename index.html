@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 	<head>
 		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no"/>
 		<title>Rdio - Luke Chesser</title>
 
 		<link rel="stylesheet" href="css/reset.css"/>
@@ -22,8 +23,13 @@
 						<input type="submit" name="submit" value="Rechercher" class="submit">
 					</form>
 					</div>
-					<div class="user col">
-						<a href="#">Luke Chesser</a>
+					<div class="user col dropdown">
+						<a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Luke Chesser</a>
+						
+						<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+							<a class="dropdown-item" href="#"> my profile</a>
+							<a class="dropdown-item" href="#"> Log out</a>
+						</div>
 					</div>
 				</div>
 			</header>
@@ -48,23 +54,25 @@
 					</aside>
 					<main class="col">
 					<header>
-						<div class="name-photo">
-							<aside>
-								<img src="img/artist.png" />
-							</aside>
-							<div class="name">
-								<h1>Luke Chesser</h1>
-								<p>Montreal, Quebec, Canada <a href="https://www.facebook.com/" target="_blank"><img class="share" src="img/icon/fb.png" /></a><a href="https://twitter.com/" target="_blank"><img class="share" src="img/icon/twitter.png" /></a></p>
+						<div class="row">
+							<div class="name-photo">
+								<aside>
+									<img src="img/artist.png" />
+								</aside>
+								<div class="name">
+									<h1>Luke Chesser</h1>
+									<p>Montreal, Quebec, Canada <a href="https://www.facebook.com/" target="_blank"><img class="share" src="img/icon/fb.png" /></a><a href="https://twitter.com/" target="_blank"><img class="share" src="img/icon/twitter.png" /></a></p>
+								</div>
 							</div>
 						</div>
-						<div class="stats-links row justify-content-between">
-							<section class="stats col-xl-10 col-lg-9 col-md-9 col-sm-12">
+						<div class="stats-links">
+							 <section> 
 								<span>2 Playlists</span>
 								<span>4 Reviews</span>
 								<span>6 Followers</span>
 								<span>13 Following</span>
 							</section>
-							<div class="links col-xl-2 col-lg-3 col-md-3 col-sm">
+							<div class="links">
 								<div>
 									<a href="#">Collection</a>
 									<a href="#">History</a>
@@ -77,7 +85,7 @@
 						<a class="station" href="#">Start Station</a>
 					</div>
 					<section id="albums" class="row">
-						<article class="col-6 col-sm-4 col-xl-2">
+						<article class="col-6  col-md-4 col-xl-2">
 							<figure>
 								<img src="img/album/album_01.png" />
 								<figcaption>Native (Deluxe)</figcaption>
@@ -85,7 +93,7 @@
 							<div class="artist">OneRepublic</div>
 							<div class="count">17 songs</div>
 						</article>
-						<article class="col-6 col-sm-4 col-xl-2">
+						<article class="col-6  col-md-4 col-xl-2">
 							<figure>
 								<img src="img/album/album_02.png" />
 								<figcaption>Wax Wings</figcaption>
@@ -93,7 +101,7 @@
 							<div class="artist">Joshua Radin</div>
 							<div class="count">11 songs</div>
 						</article>
-						<article class="col-6 col-sm-4 col-xl-2">
+						<article class="col-6  col-md-4 col-xl-2">
 
 							<figure>
 								<img src="img/album/album_03.png" />
@@ -102,7 +110,7 @@
 							<div class="artist">Vampire Weekend</div>
 							<div class="count">12 songs</div>
 						</article>
-						<article class="col-6 col-sm-4 col-xl-2">
+						<article class="col-6  col-md-4 col-xl-2">
 
 							<figure>
 								<img src="img/album/album_04.png" />
@@ -111,7 +119,7 @@
 							<div class="artist">Imagine Dragons</div>
 							<div class="count">11 songs</div>
 						</article>
-						<article class="col-6 col-sm-4 col-xl-2">
+						<article class="col-6  col-md-4 col-xl-2">
 
 							<figure>
 								<img src="img/album/album_05.png" />
@@ -120,7 +128,7 @@
 							<div class="artist">The National</div>
 							<div class="count">13 songs <span class="explicit">EXPLICIT</span></div>
 						</article>
-						<article class="col-6 col-sm-4 col-xl-2">
+						<article class="col-6  col-md-4 col-xl-2">
 
 							<figure>
 								<img src="img/album/album_06.png" />
@@ -129,7 +137,7 @@
 							<div class="artist">OneRepublic</div>
 							<div class="count">17 songs</div>
 						</article>
-						<article class="col-6 col-sm-4 col-xl-2">
+						<article class="col-6  col-md-4 col-xl-2">
 
 							<figure>
 								<img src="img/album/album_07.png" />
@@ -138,7 +146,7 @@
 							<div class="artist">Joshua Radin</div>
 							<div class="count">11 songs</div>
 						</article>
-						<article class="col-6 col-sm-4 col-xl-2">
+						<article class="col-6  col-md-4 col-xl-2">
 
 							<figure>
 								<img src="img/album/album_08.png" />
@@ -147,7 +155,7 @@
 							<div class="artist">Vampire Weekend</div>
 							<div class="count">12 songs</div>
 						</article>
-						<article class="col-6 col-sm-4 col-xl-2">
+						<article class="col-6  col-md-4 col-xl-2">
 
 							<figure>
 								<img src="img/album/album_09.png" />
@@ -156,7 +164,7 @@
 							<div class="artist">Imagine Dragons</div>
 							<div class="count">11 songs <span class="explicit">EXPLICIT</span></div>
 						</article>
-						<article class="col-6 col-sm-4 col-xl-2">
+						<article class="col-6  col-md-4 col-xl-2">
 							<figure>
 								<img src="img/album/album_10.png" />
 								<figcaption>Trouble Will Find Me</figcaption>
